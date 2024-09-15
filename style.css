@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+body{
+    max-width: 370px;
+}
+
+#conteudo{
+    background-color: rgb(21, 21, 21);
+    width: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+}
+#main{
+    width: 100%;
+}
+#foto{
+    margin-top: -120px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#sub{
+    width: 50%;
+}
+
+/*logo*/
+
+#logo{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    width: 70%;
+}
+
+#contatos{
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    margin-top: 20px;
+}
+.cont{
+    background-color: rgb(205, 159, 97);
+    width: 70px;
+    height: 70px;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+    margin: 0px 25px 0px 25px;
+}
+.fa-whatsapp{
+    font-size: 36pt;
+    color: rgb(255, 255, 255);
+}
+.fa-instagram{
+    font-size: 36pt;
+    color: rgb(255, 255, 255);
+}
+
+.contmain{
+    text-align: center;
+}
+.contmain p{
+    margin-top: 5px;
+    color: white;
+    font-size: 14pt;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 300;
+}
+
+.cont:active{
+    background-color:rgb(95, 71, 39) ;
+}
+.contmain:active{
+    position: relative;
+    bottom: 5px;
+}
+
+#local{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#local p{
+    font-family: "Work Sans", sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 14pt;
+    padding: 2px 10px 2px 30px;
+    background-color: rgb(205, 159, 97);
+    border-radius: 5px;
+}
+#local p:active{
+    background-color: rgb(95, 71, 39);
+}
+#local:active{
+    position: relative;
+    bottom: 5px;
+}
+#loc{
+    background-color: rgb(151, 110, 57);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: -20px;
+    z-index: 2;
+}
+.fa-location-dot{
+    color: white;
+    font-size: 16pt;
+}
+
+#mapa{
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+#mapa iframe{
+    border-radius: 10px;
+    border-color: rgb(205, 159, 97);
+}
+
+
+.banner-container {
+    position: relative;
+    width: 100%;
+    max-width: 240px; /* Ajuste conforme necessário */
+    margin: auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 3px 3px 2px rgb(205, 159, 97);
+}
+
+/* Estilo para cada slide do banner */
+.banner-slide {
+    display: none;
+    width: 100%;
+}
+
+/* Estilo para as imagens dentro do slide */
+.banner-slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+footer img{
+    margin-top: -180px;
+    width: 100%;
+}
